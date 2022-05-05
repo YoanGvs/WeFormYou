@@ -25,9 +25,8 @@ do{
     k += 1;
 }while(k < tab.length);
 
-// FOR IN : iterer sur kes clef d'un objet 
+// FOR IN : iterer sur les clef d'un objet 
 let voiture = {marque: 'peugeot', moteur: 'essence' };
-
 
 console.log('-----FOR IN----')
 for (let k in voiture){

@@ -1,5 +1,5 @@
 // Condition IF
-/* let age = prompt('saisir votre age');
+let age = prompt('saisir votre age');
 
 if (age < 18){
     alert('vous etes un mineur');
@@ -7,7 +7,7 @@ if (age < 18){
     alert('Vous etes un senior')
 }else{
     alert('Vous etes Majeur');
-}*/
+}
 
 // Conditions SWITCH
 let vehicule = prompt ('quel vehicule souhaiter vous? Peugot, BMW , Ferrari').toLowerCase();

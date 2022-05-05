@@ -14,12 +14,24 @@ const QUESTIONS = [
       reponse: 2
     }];
 
-function name() {
-  
+let score = 0;
+
+for (const v of QUESTIONS) {
+  let userEntry = prompt(v.question);
+  if (userEntry == v.reponse){
+    alert(`Bonnes reponse`)
+    score += 1;
+    console.log(score); 
+  } else {
+    alert(' Mauvaise reponse ')
+  }
 }
 
-prompt("hello");
-
+if (score > 1){
+  alert(`vous avez ${score} bonne reponse sur 3`);
+}else{
+  alert(`vous avez ${score} bonnes reponses sur 3`);
+}
 
 
 
@@ -27,15 +39,15 @@ prompt("hello");
 
     // premiere question 
       // enregistrement de la reponse 
-        // message de bonne reponse 
-        //ou 
+        //  message de bonne reponse 
+        //ou
         // message mauvaise reponse 
         // ajout +1 en cas de bonnes reponse 
 
-      // deuxieme question 
-        // enregistrement de la reponse 
-          // message de bonne reponse 
-          //ou 
-          // message mauvaise reponse 
-          // ajout +1 en cas de bonnes reponse  
+    // deuxieme question 
+      // enregistrement de la reponse 
+        // message de bonne reponse 
+        //ou 
+        // message mauvaise reponse 
+        // ajout +1 en cas de bonnes reponse  
 
